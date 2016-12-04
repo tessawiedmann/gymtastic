@@ -8,12 +8,29 @@
 
 /* Begin PBXBuildFile section */
 		1EC83A721DF326620059321C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC83A711DF326620059321C /* AppDelegate.swift */; };
-		1EC83A741DF326620059321C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC83A731DF326620059321C /* ViewController.swift */; };
+		1EC83A741DF326620059321C /* NewMeetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC83A731DF326620059321C /* NewMeetViewController.swift */; };
 		1EC83A771DF326620059321C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EC83A751DF326620059321C /* Main.storyboard */; };
 		1EC83A791DF326620059321C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EC83A781DF326620059321C /* Assets.xcassets */; };
 		1EC83A7C1DF326620059321C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EC83A7A1DF326620059321C /* LaunchScreen.storyboard */; };
 		1EC83A871DF326620059321C /* Gymtastic2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC83A861DF326620059321C /* Gymtastic2Tests.swift */; };
 		1EC83A921DF326620059321C /* Gymtastic2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC83A911DF326620059321C /* Gymtastic2UITests.swift */; };
+		1EC83AA41DF32F470059321C /* MeetTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC83AA31DF32F470059321C /* MeetTableViewCell.swift */; };
+		1EC83AA61DF333BA0059321C /* MeetTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC83AA51DF333BA0059321C /* MeetTableViewController.swift */; };
+		1EC83AA81DF34E080059321C /* Meet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC83AA71DF34E080059321C /* Meet.swift */; };
+		1EC83AA91DF34E080059321C /* Meet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC83AA71DF34E080059321C /* Meet.swift */; };
+		1EC83AAA1DF34E080059321C /* Meet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC83AA71DF34E080059321C /* Meet.swift */; };
+		1EC83AAC1DF389530059321C /* DetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC83AAB1DF389530059321C /* DetailTableViewController.swift */; };
+		1EC83AAD1DF389530059321C /* DetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC83AAB1DF389530059321C /* DetailTableViewController.swift */; };
+		1EC83AAE1DF389530059321C /* DetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC83AAB1DF389530059321C /* DetailTableViewController.swift */; };
+		1EC83AB01DF3A31E0059321C /* StringTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC83AAF1DF3A31E0059321C /* StringTableViewCell.swift */; };
+		1EC83AB11DF3A31E0059321C /* StringTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC83AAF1DF3A31E0059321C /* StringTableViewCell.swift */; };
+		1EC83AB21DF3A31E0059321C /* StringTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC83AAF1DF3A31E0059321C /* StringTableViewCell.swift */; };
+		1EC83AB41DF3A3F40059321C /* EventTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC83AB31DF3A3F40059321C /* EventTableViewCell.swift */; };
+		1EC83AB51DF3A3F40059321C /* EventTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC83AB31DF3A3F40059321C /* EventTableViewCell.swift */; };
+		1EC83AB61DF3A3F40059321C /* EventTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC83AB31DF3A3F40059321C /* EventTableViewCell.swift */; };
+		1EC83AB81DF3A5290059321C /* LabelTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC83AB71DF3A5290059321C /* LabelTableViewCell.swift */; };
+		1EC83AB91DF3A5290059321C /* LabelTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC83AB71DF3A5290059321C /* LabelTableViewCell.swift */; };
+		1EC83ABA1DF3A5290059321C /* LabelTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC83AB71DF3A5290059321C /* LabelTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +53,7 @@
 /* Begin PBXFileReference section */
 		1EC83A6E1DF326620059321C /* Gymtastic2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gymtastic2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EC83A711DF326620059321C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1EC83A731DF326620059321C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1EC83A731DF326620059321C /* NewMeetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewMeetViewController.swift; sourceTree = "<group>"; };
 		1EC83A761DF326620059321C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1EC83A781DF326620059321C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1EC83A7B1DF326620059321C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +64,13 @@
 		1EC83A8D1DF326620059321C /* Gymtastic2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Gymtastic2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EC83A911DF326620059321C /* Gymtastic2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gymtastic2UITests.swift; sourceTree = "<group>"; };
 		1EC83A931DF326620059321C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EC83AA31DF32F470059321C /* MeetTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeetTableViewCell.swift; sourceTree = "<group>"; };
+		1EC83AA51DF333BA0059321C /* MeetTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeetTableViewController.swift; sourceTree = "<group>"; };
+		1EC83AA71DF34E080059321C /* Meet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Meet.swift; sourceTree = "<group>"; };
+		1EC83AAB1DF389530059321C /* DetailTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailTableViewController.swift; sourceTree = "<group>"; };
+		1EC83AAF1DF3A31E0059321C /* StringTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringTableViewCell.swift; sourceTree = "<group>"; };
+		1EC83AB31DF3A3F40059321C /* EventTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventTableViewCell.swift; sourceTree = "<group>"; };
+		1EC83AB71DF3A5290059321C /* LabelTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabelTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +122,15 @@
 			isa = PBXGroup;
 			children = (
 				1EC83A711DF326620059321C /* AppDelegate.swift */,
-				1EC83A731DF326620059321C /* ViewController.swift */,
+				1EC83A731DF326620059321C /* NewMeetViewController.swift */,
+				1EC83AA31DF32F470059321C /* MeetTableViewCell.swift */,
 				1EC83A751DF326620059321C /* Main.storyboard */,
+				1EC83AB31DF3A3F40059321C /* EventTableViewCell.swift */,
+				1EC83AAF1DF3A31E0059321C /* StringTableViewCell.swift */,
+				1EC83AAB1DF389530059321C /* DetailTableViewController.swift */,
+				1EC83AB71DF3A5290059321C /* LabelTableViewCell.swift */,
+				1EC83AA71DF34E080059321C /* Meet.swift */,
+				1EC83AA51DF333BA0059321C /* MeetTableViewController.swift */,
 				1EC83A781DF326620059321C /* Assets.xcassets */,
 				1EC83A7A1DF326620059321C /* LaunchScreen.storyboard */,
 				1EC83A7D1DF326620059321C /* Info.plist */,
@@ -259,8 +290,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1EC83A741DF326620059321C /* ViewController.swift in Sources */,
+				1EC83AB41DF3A3F40059321C /* EventTableViewCell.swift in Sources */,
+				1EC83AAC1DF389530059321C /* DetailTableViewController.swift in Sources */,
+				1EC83AB01DF3A31E0059321C /* StringTableViewCell.swift in Sources */,
+				1EC83A741DF326620059321C /* NewMeetViewController.swift in Sources */,
 				1EC83A721DF326620059321C /* AppDelegate.swift in Sources */,
+				1EC83AB81DF3A5290059321C /* LabelTableViewCell.swift in Sources */,
+				1EC83AA61DF333BA0059321C /* MeetTableViewController.swift in Sources */,
+				1EC83AA41DF32F470059321C /* MeetTableViewCell.swift in Sources */,
+				1EC83AA81DF34E080059321C /* Meet.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,6 +306,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1EC83AAD1DF389530059321C /* DetailTableViewController.swift in Sources */,
+				1EC83AA91DF34E080059321C /* Meet.swift in Sources */,
+				1EC83AB91DF3A5290059321C /* LabelTableViewCell.swift in Sources */,
+				1EC83AB11DF3A31E0059321C /* StringTableViewCell.swift in Sources */,
+				1EC83AB51DF3A3F40059321C /* EventTableViewCell.swift in Sources */,
 				1EC83A871DF326620059321C /* Gymtastic2Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,6 +319,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1EC83AAE1DF389530059321C /* DetailTableViewController.swift in Sources */,
+				1EC83AAA1DF34E080059321C /* Meet.swift in Sources */,
+				1EC83ABA1DF3A5290059321C /* LabelTableViewCell.swift in Sources */,
+				1EC83AB21DF3A31E0059321C /* StringTableViewCell.swift in Sources */,
+				1EC83AB61DF3A3F40059321C /* EventTableViewCell.swift in Sources */,
 				1EC83A921DF326620059321C /* Gymtastic2UITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
