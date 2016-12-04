@@ -47,14 +47,25 @@ class DetailTableViewController: UITableViewController {
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         if indexPath.section == 0 {
-            let cell = tableView.dequeueReusableCell(withIdentifier: "labelCell", for: indexPath)
-            cell.detailTextLabel.text = meet?.date
+            let cell = tableView.dequeueReusableCell(withIdentifier: "labelCell", for: indexPath) as! LabelTableViewCell
+            
+            let dateFormatter = DateFormatter()
+            dateFormatter.dateStyle = .medium
+            dateFormatter.timeStyle = .none
+            
+            cell.dateLabel.text = dateFormatter.string(from: (meet?.date)!)
             return cell
         } else if indexPath.section == 1 {
-            let cell = tableView.dequeueReusableCell(withIdentifier: "eventCell", for: indexPath)
+            let cell = tableView.dequeueReusableCell(withIdentifier: "eventCell", for: indexPath) as! EventTableViewCell
+            let events = ["Vault", "Beam", "Bars", "Floor", "AA"]
+            var counter = 0
+            for event in events {
+                cell.eventPicker.setTitle(event, forSegmentAt: counter)
+                counter += 1
+            }
             return cell
         } else {
-            let cell = tableView.dequeueReusableCell(withIdentifier: "stringCell", for: indexPath)
+            let cell = tableView.dequeueReusableCell(withIdentifier: "stringCell", for: indexPath) as! StringTableViewCell
             return cell
         }
     }
